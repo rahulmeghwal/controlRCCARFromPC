@@ -2,8 +2,8 @@ char data = '0';
 int val = -1;
 
 // Car movements signals from arduino
-int left = 0;
-int right = 0;
+int left    = 0;
+int right   = 0;
 int forward = 0;
 int reverse = 0;
 
@@ -15,8 +15,8 @@ int reverse = 0;
 ** remote's respective buttons(signal triggers)
 */
 
-const int leftTurnPin = 4; // Output Pin
-const int rightTurnPin = 5; // Output Pin
+const int leftTurnPin    = 4; // Output Pin
+const int rightTurnPin   = 5; // Output Pin
 const int reverseMovePin = 6; // Output Pin
 const int forwardMovePin = 7; // Output Pin
 
