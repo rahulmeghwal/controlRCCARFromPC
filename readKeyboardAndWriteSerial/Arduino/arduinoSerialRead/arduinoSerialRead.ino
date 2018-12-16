@@ -51,7 +51,7 @@ void loop() {
     left    = val & 1<<3;
 
     // Write to arduino outpins the signals recieved from keyboard 
-    // My RC controller worked on active low pins, hence I had to invert the signals
+    // My RF controller worked on active low pins, hence I had to invert the signals
     
     digitalWrite(leftTurnPin, !left);
     digitalWrite(rightTurnPin, !right);
