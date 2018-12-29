@@ -7,7 +7,7 @@ def main():
 
     lastCode = 0
     code = 0
-    
+    # Just draw a circle on screen to see of out key movements are being captured by python or not
     # circle features
     x = 30
     y = 30
